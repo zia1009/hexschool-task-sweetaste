@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans TC";
+  margin: 0 auto;
+  width: 1024px;
+  height: 100%;
+}
+
+/*header區塊*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 30px auto;
+}
+
+header .logo {
+  width: 212px;
+  height: 40px;
+  margin-left: 42px;
+}
+
+header nav {
+  width: 320px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header nav a {
+  color: #3f5d45;
+  font-size: 16px;
+  text-align: left;
+  font-weight: normal;
+  line-height: 73px;
+  text-decoration: none;
+}
+
+header nav a img {
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+  vertical-align: middle;
+}
+
+.banner {
+  margin: 0 42px;
+}
+
+/*header區塊 結束*/
+
+/*wrapper區塊*/
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 42px;
+}
+
+.wrapper .sidemenu {
+  width: 300px;
+}
+
+.wrapper .sidemenu .title {
+  background-color: #3f5d45;
+  color: white;
+  width: 300px;
+  height: 65px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 65px;
+}
+
+.wrapper .sidemenu .menu-1 {
+  background-color: #eaf0ed;
+  border: solid 1px;
+  border-color: #eaf0ed;
+  color: #3f5d45;
+  width: 300px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+}
+
+.wrapper .sidemenu .menu-1 a {
+  color: #3f5d45;
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.wrapper .sidemenu .menu-2 {
+  border: solid 1px;
+  border-color: #eaf0ed;
+  width: 300px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+}
+
+.wrapper .sidemenu .menu-2 a {
+  text-decoration: none;
+  color: #3f5d45;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+main .productSet {
+  display: flex;
+  justify-content: space-between;
+  width: 620px;
+  margin-bottom: 20px;
+}
+
+.product .pic {
+  width: 300px;
+  height: 315px;
+  opacity: 1;
+  position: relative;
+}
+
+.product .img-1 {
+  background: transparent url(images/p-1.png) 0% 0% no-repeat padding-box;
+}
+
+.product .img-2 {
+  background: transparent url(images/p-2.png) 0% 0% no-repeat padding-box;
+}
+
+.product .img-3 {
+  background: transparent url(images/p-3.png) 0% 0% no-repeat padding-box;
+}
+
+.product .img-4 {
+  background: transparent url(images/p-4.png) 0% 0% no-repeat padding-box;
+}
+
+.product .img-5 {
+  background: transparent url(images/p-5.png) 0% 0% no-repeat padding-box;
+}
+
+.product .img-6 {
+  background: transparent url(images/p-6.png) 0% 0% no-repeat padding-box;
+}
+
+.product .pic .recommend {
+  width: 36px;
+  height: 107px;
+  background-color: #3f5d45;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 16px;
+  text-align: center;
+  writing-mode: vertical-lr;
+  line-height: 36px;
+}
+
+.product .nameAndPrice {
+  display: flex;
+  width: 300px;
+  height: 56px;
+}
+
+.product .nameAndPrice .name {
+  width: 173px;
+  border: solid 1px;
+  border-color: #eaf0ed;
+  color: #3f5d45;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 56px;
+}
+
+.product .nameAndPrice .price {
+  width: 127px;
+  border: solid 1px;
+  border-color: #eaf0ed;
+  color: #3f5d45;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 56px;
+}
+
+.product .addtoCart {
+  width: 300px;
+  height: 65px;
+  background-color: #eaf0ed;
+  border: solid 1px;
+  border-color: #eaf0ed;
+  color: #3f5d45;
+  text-align: center;
+  line-height: 65px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+main .pagesNumber {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  width: 620px;
+}
+
+main .pagesNumber .backAndNext {
+  width: 60px;
+  height: 60px;
+  border: solid 1px;
+  border-color: #eaf0ed;
+  text-align: center;
+}
+
+main .pagesNumber .backAndNext img {
+  margin: 18px;
+}
+
+main .pagesNumber .active {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #eaf0ed;
+  background-color: #3f5d45;
+}
+
+main .pagesNumber .number {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #3f5d45;
+  border: solid 1px;
+  border-color: #eaf0ed;
+}
+
+/*wrapper區塊 結束*/
+
+/*action區塊*/
+.action {
+  display: flex;
+  background-color: #3f5d45;
+  height: 116px;
+}
+
+.action .logoAndTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 522px;
+}
+
+.action .logoAndTitle .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.action .logoAndTitle .title {
+  font-size: 24px;
+  font-weight: normal;
+  color: #eaf0ed;
+}
+
+.action .emailAndImg {
+  width: 380px;
+  height: 56px;
+  background-color: #eaf0ed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.action .emailAndImg .email {
+  width: 24px;
+  height: 24px;
+  margin: 16px 0 16px 20px;
+}
+
+.action .emailAndImg .forwardimg {
+  width: 64px;
+  height: 56px;
+  background-color: #ffe180;
+}
+
+.action .emailAndImg .forwardimg img {
+  width: 16px;
+  height: 16px;
+  margin: 20px 24px;
+}
+
+/*action區塊 結束*/
+
+/*footer區塊*/
+footer {
+  height: 341px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaf0ed;
+}
+
+footer .information {
+  width: 300px;
+  margin-left: 122px;
+}
+
+footer .information .logo {
+  width: 172px;
+  height: 26.6px;
+  margin-top: 39px;
+}
+
+footer .information .contact {
+  margin-top: 115px;
+}
+
+footer .information .contact p {
+  font-size: 16px;
+  color: #3f5d45;
+  font-weight: normal;
+  line-height: 10px;
+}
+
+footer .information .socialicon {
+  display: flex;
+}
+
+footer .information .socialicon img {
+  width: 32px;
+  height: 32px;
+  margin: 30px 8px auto 0;
+}
+
+footer .slogan .sloganContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  font-size: 28px;
+  height: 290px;
+  color: #3f5d45;
+}
+
+footer .slogan .sloganContent .slogan-1 {
+  writing-mode: vertical-lr;
+  width: 30px;
+  margin: 30px 122px 0 0;
+}
+
+footer .slogan .sloganContent .slogan-2 {
+  writing-mode: vertical-lr;
+  width: 30px;
+  margin: 42px 6px 0 0;
+}
+
+footer .slogan .copyright {
+  font-size: 16px;
+  font-weight: normal;
+  color: #3f5d45;
+  margin-right: 122px;
+  margin-top: 8px;
+}
+
+/*footer區塊 結束*/
